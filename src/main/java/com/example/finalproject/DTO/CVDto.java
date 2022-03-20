@@ -1,0 +1,21 @@
+package com.example.finalproject.DTO;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class CVDto {
+	private int id;
+	private String cvName;
+	private String name;
+	private boolean gender;
+	private String email;
+	private String address;
+	private String phone;
+	private Date birthday;
+	private String photo;
+	private String objective;
+	private String experience;
+	private String skills;
+}
